@@ -47,3 +47,6 @@ const result = sumOfTwo(arr, sum)
 
 // print the result to the console
 console.log(result)
+
+// My web-site http://upmate.io
+// YouTube channel - https://www.youtube.com/channel/UCYUUfSJ_8qEP9Nmo2SEXMUQ

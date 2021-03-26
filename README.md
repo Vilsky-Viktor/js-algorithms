@@ -6,3 +6,4 @@ All the algorithms will be separated to 3 sections: basic, intermediate and adva
 
 Subscribe to my youtube channel to keep track of a new algorithms and other useful videos for software and web developers - https://www.youtube.com/channel/UCYUUfSJ_8qEP9Nmo2SEXMUQ
 
+My web-site (as a developer) - http://upmate.io
