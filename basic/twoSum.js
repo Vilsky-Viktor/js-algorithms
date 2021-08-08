@@ -1,14 +1,9 @@
-// My web-site http://upmate.io
-// YouTube channel - https://www.youtube.com/channel/UCYUUfSJ_8qEP9Nmo2SEXMUQ
-
 /*
-Given:
-arr - array of integers
-sum - target number
+Leetcode problem
+My web-site http://upmate.io
+YouTube channel (SUBSCRIBE) - https://www.youtube.com/channel/UCYUUfSJ_8qEP9Nmo2SEXMUQ
 
-Task:
-Find a pair of integers from a given array
-which sum ends up to a target number.
+Find a pair of integers from a given array which sum ends up to a target number.
 Return a correct pair as an array
 
 Example:
@@ -44,6 +39,7 @@ function twoSum(arr, sum) {
     return []
 }
 
+console.log(twoSum(arr, sum))
 
 // Function complexity: O(n) time, O(n) space
 function twoSumAllPairs(arr, sum) {
@@ -73,6 +69,8 @@ function twoSumAllPairs(arr, sum) {
     return pairs
 }
 
+console.log(twoSumAllPairs(arr, sum))
+
 // Function complexity: O(n) time, O(n) space
 function twoSumAllPairsWithDuplicates(arr, sum) {
     // use Set to have O(1) time complexity for add() and has() methods
@@ -98,6 +96,7 @@ function twoSumAllPairsWithDuplicates(arr, sum) {
     return pairs
 }
 
+console.log(twoSumAllPairsWithDuplicates(arr, sum))
 
 // Function complexity: O(n) time, O(n) space
 function twoSumIndexes(arr, sum) {
@@ -124,7 +123,10 @@ function twoSumIndexes(arr, sum) {
         }
     }
 
+    return pairs
 }
+
+console.log(twoSumIndexes(arr, sum))
 
 // our arguments sorted
 const arrSorted = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -155,3 +157,4 @@ function twoSumSorted(arr, target) {
 
 }
 
+console.log(twoSumSorted(arr, sum))
